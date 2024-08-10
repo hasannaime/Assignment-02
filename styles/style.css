@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+/* navbar css starts here */
+.navbar-main{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1065px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.nav-menu-btn{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: none;
+    
+    margin-left: 10px;  
+
+}
+
+.nav-title{
+    color: rgba(230, 83, 60, 1.00);
+}
+
+.btn-1{
+    background-color:rgba(230, 83, 60, 1.00) ;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.nav-hamburger-menu{
+    display: none;
+}
+/* navbar css ends here */
+
+/* resoponsive style */
+
+@media screen and (max-width:576px){
+    .nav-hamburger-menu{
+        display: block;
+        color: white;
+    }
+   
+    .nav-btn-container{
+        display: none;
+    }
+}
