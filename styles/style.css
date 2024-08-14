@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+      background-color: black; 
 }
 /* navbar css starts here */
 .navbar-main{
@@ -28,7 +28,7 @@ body{
 }
 
 .nav-title{
-    color: rgba(230, 83, 60, 1.00);
+    color: rgba(200, 83, 60, 1.00);
 }
 
 .btn-1{
@@ -42,15 +42,510 @@ body{
 }
 /* navbar css ends here */
 
-/* resoponsive style */
 
+
+/* banner css starts here */
+.main-content{
+    max-width: 1065px;
+    height: 530px;
+    margin: 0 auto;
+    color: white;
+}
+
+.banner-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.banner-childs {
+      width: 100%;   
+    
+
+     position: relative; 
+
+}
+
+.banner-childs i{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner-childs img{
+    width: 380px;
+    height: 490px ;
+}
+
+.banner-text{
+ font-size: 60px;
+font-weight: 800;
+/* margin-right: 100px; */
+}
+
+.banner-btn{
+
+    width: 150px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);;
+}
+#banner-btn1{
+    width: 150px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.card-1{
+
+  padding: 20px 10px 10px 10px;
+ text-align: right; 
+box-sizing: border-box;
+border: 5px solid rgba(225, 225, 225, 0.1);
+border-radius: 10px;
+backdrop-filter: blur(25px);
+background-color:rgba(225, 225, 225,0.1);
+margin-left: 0%;
+width: 150px;
+height: 80px;
+position: absolute;
+
+bottom: 15%;
+color: white;
+
+}
+
+.thirty-five{
+    /* position: absolute; */
+    margin-right: 40%;
+
+}
+
+.circle{
+    background-color: brown;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+
+}
+
+.card-2{
+
+    padding: 15px 10px 10px 15px;
+ text-align: center; 
+box-sizing: border-box;
+border: 5px solid rgba(225, 225, 225, 0.1);
+border-radius: 10px;
+backdrop-filter: blur(70px);
+background-color:rgba(225, 225, 225,0.1);
+margin-left: 0%;
+width: 180px;
+height: 80px;
+position: absolute;
+
+top: 16%;
+left: 55%;
+/* bottom: 40%; */
+color: white;
+
+}
+
+/* banner css ends here */
+
+/* habits section starts here */
+
+.habits{
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+
+
+
+.card img{
+     width: 100%; 
+    border-radius: 100%;
+}
+/* habits section end here */
+
+/* run section starts here */
+.main-run{
+    display: flex;
+    justify-content: space-around;
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 21px;
+
+    background: rgb(34, 34, 34);
+    /* text-align: center; */
+    
+ 
+}
+
+.run{
+    /* padding-right: 50px; */
+    padding-top: 65px;
+}
+
+.main-run img{
+   padding-top: 20px;
+   margin-right: 20px ;
+   margin-bottom: 20px;
+
+    width: 400px;
+    border-radius: 22px;
+   
+    
+}
+/* run section starts here */
+
+/* bmi section starts here */
+.bmi{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+/* bmi section ends here */
+
+  /* bmi calculator section starts here  */
+
+  table{
+    border-collapse: collapse;
+
+     text-align: center;   
+
+    margin-left: 100px;
+    /* margin-top: 100px; */
+
+    padding-top: 20px;
+  }
+  .table h1{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 20px;
+
+  }
+  td{
+    border: 2px solid gray;
+  }
+
+  .bmi-calculator{
+    background-color:  rgb(34, 34, 34);
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 5px;
+    padding-top: 10px;
+    margin: 0 auto;
+   
+    
+
+  }
+
+  .form{
+    margin-left: 10px;
+    width: 80%;
+  }
+
+  .login-form{
+     padding-top: 20px; 
+      /* border-radius: 10px;  */
+
+
+   
+
+  }
+
+  .login-form-1 {
+     padding-top: 20px; 
+    
+   
+  }
+
+
+  .login-form input{
+    width: 150px;
+     height: 60px; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+
+    
+   
+  }
+
+  .login-form select{
+    width: 150px;
+     height: 60px; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    
+    
+  }
+
+
+  .login-form-1 select{
+    width: 305px;
+     height: 60px; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+ /* bmi calculator section ends here  */
+
+ /* Meet section starts here  */
+
+ .meet-text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .meet-main{
+
+    
+background: rgba(255, 255, 255, 0.1);
+ max-width: 1065px;
+ 
+ margin:0 auto;
+ display: grid;
+ 
+ grid-template-areas: 
+ 
+    "a b c"
+    "d e f"
+ 
+ 
+ ;
+gap: 10px;
+
+ }
+
+ 
+ .meet-childs{
+
+   
+   
+    position: relative; 
+   
+   
+ }
+
+ .child-1{
+
+    grid-area: a;
+
+ }
+
+ .child-2{
+
+    grid-area: b;
+    
+ }
+
+ .child-3{
+    
+    grid-area: c;
+ }
+
+ .child-4{
+    
+    grid-area: d;
+ }
+
+ .child-5{
+    grid-area: e;
+ }
+
+ .child-6{
+    grid-area: f;
+ }
+
+ .meet-childs img{
+      width: 100%; 
+     width: 345px; 
+    height: 175px;  
+   border-radius: 20px;
+   /* padding: 10px; */
+
+   
+ }
+
+ .jerome{
+     width: max-content; 
+    font-size: 20px;
+     position: absolute; 
+    bottom: 17%;
+    left: 3%;
+   
+ }
+ /* Meet section ends here  */
+ 
+
+ /* fitness section starts here */
+
+ .fitness{
+    max-width: 1065px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    display: grid;
+    
+     grid-template-areas: 
+     "a b c"
+    ;
+    gap: 150px;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+
+ .fitness-1{
+    grid-area: a;
+    
+ }
+
+ .fitness-2{
+    grid-area: b;
+    
+ }
+
+ .fitness-3{
+    grid-area: c;
+    
+ }
+ /* fitness section ends here */
+
+ /* vector section starts here */
+ .vector{
+background: rgba(255, 255, 255, 0.049);
+width: 600px;
+height: 0;
+/* margin-top: 20px;
+margin-left: 285px; */
+margin: 0 auto; 
+text-align: center;
+/* margin-bottom: 40px;  */
+border: 2px solid rgba(255, 255, 255, 0.1);
+
+ }
+
+ .vector h4{
+    text-align: center;
+    /* margin-bottom: 50px; */
+ }
+ /* vector section starts here */
+ 
 @media screen and (max-width:576px){
     .nav-hamburger-menu{
-        display: block;
+        display: block; 
         color: white;
     }
    
     .nav-btn-container{
-        display: none;
+      display: none; 
     }
+    .banner-main{ 
+        flex-direction: column;
+       
+    }
+
+    .banner-childs{
+         max-width: 100%; 
+        
+        /* position: relative; */
+    }
+
+    .banner-text{
+        margin-right: 110px;
+    }
+
+    .main-card{
+        
+         grid-template-columns: repeat(1, 1fr);
+        
+        
+    
+    }
+    
+    .main-run{
+
+        flex-direction: column;
+
+       
+    }
+
+    .bmi-calculator{
+        
+        flex-direction: column;
+        
+    }    
+
+    .form{
+          max-width: 100%;  
+         margin-left: 50px; 
+          margin-right: 50px; 
+
+    }
+
+    .meet-main{
+
+    
+       
+         grid-template-areas: 
+         
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+         
+         
+         ;
+        width: 100%;
+        margin: 0 auto;
+        
+         }
+    
+
+         .fitness{
+            
+            
+             grid-template-areas: 
+             "a"
+             "b"
+             "c"
+            ;
+           gap: 40px;
+         }
+   
+         .vector{
+            margin-top: 25px;
+           
+             margin-left: 10px; 
+             
+            width: 100%;
+
+            
+             }
+             .vector h4{
+                margin-top: 20px;
+                margin-bottom: 20px;
+             }
+    
 }
